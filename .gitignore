@@ -1,0 +1,4 @@
+/vendor
+composer.lock
+/spec
+phpspec.yml

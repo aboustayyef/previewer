@@ -1,0 +1,24 @@
+{
+    "name": "aboustayyef/Previewer",
+    "description": "takes a url and returns title, image, excerpt and content",
+    "license": "MIT",
+    "keywords": ["scraping"],
+    "authors": [
+        {
+            "name": "Mustapha Hamoui",
+            "email": "mustapha@hamoui.com"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "3.0.*@dev",
+        "symfony/css-selector": "3.0.*@dev"
+        },
+    "require-dev": {
+        "phpspec/phpspec": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aboustayyef\\Previewer\\": "src"
+        }
+    }
+}
