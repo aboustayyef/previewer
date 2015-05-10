@@ -1,6 +1,6 @@
 <?php
 
-namespace Aboustayyef\Previewer;
+namespace Aboustayyef;
 use Symfony\Component\DomCrawler\Crawler as Crawler;
 use Aboustayyef\Previewer\Utilities\FastImage as FastImage;
 
