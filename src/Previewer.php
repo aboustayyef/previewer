@@ -3,7 +3,7 @@
 namespace Aboustayyef\Previewer;
 use Symfony\Component\DomCrawler\Crawler as Crawler;
 
-class Scraper
+class Previewer
 {
 
 	protected $content;
