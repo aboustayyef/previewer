@@ -1,5 +1,5 @@
 {
-    "name": "aboustayyef/Previewer",
+    "name": "aboustayyef/previewer",
     "description": "takes a url and returns title, image, excerpt and content",
     "license": "MIT",
     "keywords": ["scraping"],
