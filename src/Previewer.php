@@ -15,7 +15,8 @@ class Previewer
 		try {
         	$this->content = @file_get_contents($url);
         	if (strlen($this->content) > 10) {
-        		$this->crawler = new Crawler($this->content);
+                $this->crawler = new Crawler;
+                $this->crawler->addHTMLContent($this->content, 'UTF-8');
         	}
         } catch (Exception $e) {
         	echo "couldn't extract url";
